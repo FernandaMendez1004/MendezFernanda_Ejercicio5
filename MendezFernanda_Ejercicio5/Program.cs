@@ -1,1 +1,18 @@
 ﻿Console.WriteLine("bienvenido");
+int tipo, historial, antiguedad;
+double ingreso, monto;
+string fiador;
+Console.WriteLine("1 Empleado fijo\r\n2 Temporal\r\n3 Independiente\r\n4 Estudiante");
+Console.Write("Tipo de solicitante: ");
+tipo = int.Parse(Console.ReadLine());
+Console.Write("Ingreso mensual: ");
+ingreso = double.Parse(Console.ReadLine());
+Console.Write("Antiguedad laboral (meses): ");
+antiguedad = int.Parse(Console.ReadLine());
+Console.Write("Monto solicitado: ");
+monto = double.Parse(Console.ReadLine());
+Console.WriteLine("Historial crediticio:");
+Console.WriteLine("1 Excelente\r\n2 Bueno\r\n3 Regular\r\n4 Malo");
+historial = int.Parse(Console.ReadLine());
+Console.Write("Tiene fiador (S/N): ");
+fiador = Console.ReadLine();
